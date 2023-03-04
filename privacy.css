@@ -1,0 +1,374 @@
+    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+    /*This is the wrapping of all the content*/
+    main {
+    flex: 2;
+    }
+
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    } 
+    /*Page Content*/
+    .privacy-section1{
+        background-color: #F9DBBB;
+        color: #000000;
+    }
+    .privacy-container{
+        margin-top: 80px;
+    }
+    .privacy-container h1{
+        padding: 3%;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .privacy-container2{
+        display: flex;
+    }
+
+    .privacy-img {
+        width: 50%;
+    }
+    .privacy-img img {
+        width: 50%;
+        margin-left: 15%;
+    }
+    .privacy-content1{
+        width: 50%;
+    }
+    .privacy-content1 p{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    /*Section 1 End */
+
+    /*Section 2 Start */
+
+    .privacy-section2{
+        background-color: #c92626;
+    }
+    .privacy-section2-content{
+        display: flex;
+    }
+    .privacy-img2{
+        width: 50%;
+    }
+    .privacy-img2 img{
+        width: 65%;
+        margin-left: 15%;
+    }
+
+    .privacy-content2{
+        color: #f2f2f2;
+        width: 50%;
+        font-weight: 400;
+
+    }
+    .privacy-content2 h4{
+        font-size: 45px;
+        
+    }
+    .privacy-para1{
+        margin-top: 4%;
+        width: 80%;
+        
+        margin-right: auto;
+    }
+    .privacy-content2 li{
+        margin-left: 5%;
+        font-size: 20px;
+        
+    }
+
+    /*Section 2 End */
+    
+    /*Section 3 Start */
+
+    .privacy-section3{
+        background-color: #ecc82c;
+    }
+    .privacy-section3-content{
+        display: flex;
+    }
+    .privacy-img3{
+        width: 50%;
+    }
+    .privacy-img3 img{
+        width: 65%;
+        margin-left: 15%;
+    }
+
+    .privacy-content3{
+        color: #000000;
+        width: 50%;
+        font-weight: 400;
+
+    }
+    .privacy-content3 h4{
+        font-size: 45px;
+        
+    }
+    .privacy-para2{
+        margin-top: 4%;
+        width: 80%;
+        
+        margin-right: auto;
+    }
+    .privacy-content3 li{
+        margin-left: 5%;
+        font-size: 20px;
+        
+    }
+
+    /*Section 3 End */
+
+    /*Section 4 Start */
+
+    .privacy-section4{
+        background-color: #cb9409;
+    }
+    .privacy-section4-content{
+        display: flex;
+    }
+    .privacy-img4{
+        width: 50%;
+    }
+    .privacy-img4 img{
+        width: 50%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+        /* margin-left: 15%; */
+    }
+
+    .privacy-content4{
+        color: #000000;
+        width: 50%;
+        font-weight: 400;
+
+    }
+    .privacy-content4 h4{
+        font-size: 45px;
+        text-align: center;
+        margin-top: 3%;
+        
+    }
+    .privacy-para3{
+        margin-top: 4%;
+        width: 80%;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .privacy-para3 p{
+        margin-left: 5%;
+        font-size: 25px;
+        
+    }
+
+    /*Section 4 End */
+    
+    @media (max-width:1100px){
+
+     
+    .privacy-container h1{
+         
+        font-size: 2rem;
+         
+    }
+    .privacy-img {
+        width: 50%;
+    }
+    
+    .privacy-content1{
+        width: 50%;
+    }
+    .privacy-content1 p{
+         
+        width: 100%;
+        font-size: 15px;
+         
+    }
+
+    /*Section 1 End */
+
+    /*Section 2 Start */
+
+     
+    .privacy-img2 img{
+        width: 65%;
+        margin-left: 15%;
+    }
+
+    
+    .privacy-content2 h4{
+        font-size: 2rem;
+        
+    }
+    .privacy-para1{
+        margin-top: 4%;
+        width: 100%;
+        
+         
+    }
+    .privacy-content2 li{
+         
+        font-size: 15px;
+        
+    }
+
+    /*Section 2 End */
+    
+    /*Section 3 Start */
+
+    .privacy-content3 h4{
+        font-size: 2rem;
+        
+    }
+    .privacy-para2{
+        width: 100%;
+         
+    }
+    .privacy-content3 li{
+        font-size: 15px;
+        
+    }
+
+    /*Section 3 End */
+
+    /*Section 4 Start */
+
+    .privacy-content4 h4{
+        font-size: 2rem;
+         
+        
+    }
+    .privacy-para3{
+        width: 100%;
+        margin-left: 10px;
+         
+    }
+    .privacy-para3 p{
+        font-size: 15px;
+        
+    }
+
+    /*Section 4 End */
+    }
+    
+    @media (max-width:590px){
+
+     
+    .privacy-container h1{
+         
+        font-size: 1.5rem;
+         
+    }
+    
+    .privacy-content1 p{
+         
+        width: 100%;
+        font-size: 10px;
+         
+    }
+
+    /*Section 1 End */
+
+    /*Section 2 Start */
+   
+    .privacy-content2 h4{
+        font-size: 1.5rem;
+       
+    }
+     
+    .privacy-content2 li{
+         
+        font-size: 10px;
+        
+    }
+
+    /*Section 2 End */
+    
+    /*Section 3 Start */
+    .privacy-content3 h4{
+        font-size: 1.5rem;
+        
+    }
+     
+    .privacy-content3 li{
+        font-size: 10px;
+        
+    }
+
+    /*Section 3 End */
+
+    /*Section 4 Start */
+    .privacy-content4 h4{
+        font-size: 1.5rem;
+    }
+     
+    .privacy-para3 p{
+        font-size: 8px;
+    }
+
+    /*Section 4 End */
+    }
+
+    @media (max-width:540px){
+        .privacy-container h1{
+            font-size: 15px;
+             
+        }
+        .privacy-content1 p{
+             
+            width: 100%;
+            font-size: 10px;
+             
+        }
+    
+        /*Section 1 End */
+    
+        /*Section 2 Start */
+       
+        .privacy-content2 h4{
+            font-size: 15px;
+           
+        }
+         
+        .privacy-content2 li{
+             
+            font-size: 10px;
+            
+        }
+    
+        /*Section 2 End */
+        
+        /*Section 3 Start */
+    
+        .privacy-content3 h4{
+            font-size: 15px;
+        }
+         
+        .privacy-content3 li{
+            font-size: 10px;
+            
+        }
+    
+        /*Section 3 End */
+    
+        /*Section 4 Start */
+        .privacy-content4 h4{
+            font-size: 15px;   
+        }
+        /*Section 4 End */
+        }
+
+
+
+   

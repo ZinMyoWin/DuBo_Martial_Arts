@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/*This is the wrapping of all the content*/
+main {
+flex: 2;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+} 
+
+
+
+/*Page Content*/
+
+.contact-session{
+    margin-top: 80px;
+    background-color: #F9DBBB;
+    padding-left: 3%;
+}
+
+.contact-content1{
+    
+    padding-top: 5%;
+}
+.contact-content1 h1{
+    font-size: 3rem;
+
+}
+
+.contact-content2{
+
+    border: none;
+    border-radius: 25px;
+    background-color: #dfbbbb;
+    width: 35%;
+    color: rgb(0, 0, 0);
+    padding: 3%;
+
+    margin-top: 3%;
+    font-size: 25px;
+}
+
+.contact-para1{
+    margin-top: 3%;
+    padding: 3%;
+    border: none;
+    border-radius: 25px;
+    background-color: #c92626;
+    width: 50%;
+    color: #ffffff;
+}
+
+.contact-para1 h6{
+    font-size: 25px;
+}
+.contact-para1 ul{
+    margin-left: 3%;
+    margin-top: 3%;
+    font-size: 15px;
+}
+
+.contact-para2{
+    margin-top: 3%;
+    font-size: 15px;
+    width: 50%;
+
+    padding: 3%;
+    border: none;
+    border-radius: 25px;
+    background-color: #cf6c09;
+    color: #ffffff;
+
+    
+}
+.contact-para3{
+    padding-bottom: 3%;
+}
+.contact-para3-content {
+    margin-top: 3%;
+    font-size: 15px;
+     
+    width: 50%;
+    color: #ffffff;
+
+    padding: 2%;
+    border: none;
+    border-radius: 25px;
+    background-color: #ac5b0a;
+}
+
+/*Page Content End*/
+
+@media (max-width: 1000px) {
+   
+.contact-content1 h1{
+    font-size: 2rem;
+
+}
+
+.contact-content2{
+
+    width: 50%;
+    
+
+    font-size: 20px;
+}
+}
+
+@media (max-width: 900px) {
+   
+.contact-content1 h1{
+    font-size: 1.5rem;
+
+}
+
+.contact-content2{
+
+    width: 80%;
+    
+
+    font-size: 14px;
+}
+
+.contact-para1{
+     
+     
+     
+    border-radius: 20px;
+    width: 80%;
+}
+
+.contact-para1 h6{
+    font-size: 16px;
+}
+.contact-para1 ul{
+    
+    font-size: 10px;
+}
+
+.contact-para2{
+     
+    font-size: 10px;
+    width: 80%;    
+    border-radius: 20px;  
+}
+.contact-para3-content {
+    font-size: 10px;
+    width: 80%;
+    color: #ffffff;
+
+    padding: 3%;
+    border: none;
+    border-radius: 20px;
+    background-color: #ac5b0a;
+}
+}
+

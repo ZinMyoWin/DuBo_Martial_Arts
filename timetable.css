@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+main {
+  flex: 2;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+
+/*Page Content*/
+.table-section1{
+  margin-top: 80px;
+  background-image: url("Img/workoutgroup.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 140%;
+  
+   
+}
+
+.table-section1 h1{
+    color: rgb(180, 21, 21);
+    padding-top:20%;
+    padding-bottom:30%;
+    font-size: 5vw;
+    text-align: center;
+    align-items: center;
+    
+}
+.table-content1{
+   padding-top: 5%;
+   margin-left: 30%;
+    
+}
+
+.table-section2{
+  background-color: #d5d7d6;
+}
+ 
+.time-table{
+  padding-top: 5%;
+  padding-bottom:5%;
+}
+/*Section1 End*/
+.table-img {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #d1d3b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-img img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}

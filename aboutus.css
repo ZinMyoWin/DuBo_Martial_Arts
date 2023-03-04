@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+main {
+  flex: 2;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
+
+/*Section 1 start*/
+.aboutus-content{
+  margin-top: 80px;
+}
+.aboutus-content1{
+  padding-top: 30px;
+  display: flex;
+  background: #FE9B77;
+
+
+}
+.img-container{
+  width: 50%;
+}
+
+.img-container img{
+
+  width: 100%;
+  
+}
+.content2 {
+  text-align: center;
+  
+  width: 50%;
+  height: auto;
+}
+.content2 h1{
+  font-size: 5rem;
+  color: #000000;
+  font-weight: 700;
+}
+
+.aboutus-quote{
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+   width: 60%;
+}
+/*Section 1 end*/
+
+
+/*Section 2 Start*/
+.aboutus-section2{
+  background: #e9bf02;
+
+ 
+}
+.section2-content1 h2{
+  padding-top: 5%;
+  padding-bottom: 10%;
+  color: #000000;
+  font-size: 3vw;
+  text-align: center;
+}
+
+/*This is the Start of the Instructors Css Card*/
+.container-session2{
+   
+  display: flex;
+  width: 80%;
+  
+  padding-bottom: 3%;
+  margin-left: auto;
+  margin-right: auto;
+   
+}
+
+#card1 img{
+  height: 350px;
+}
+
+#card2 img{
+  height: 350px;
+}
+#card3 img{
+  height: 350px;
+}
+#card4 img{
+  height: 350px;
+}
+#card5 img{
+  height: 350px;
+}
+#card6 img{
+  height: 350px;
+}
+
+.card-body{
+  top: 0;
+}
+
+.card {
+  margin-left: 20px;
+  background-color:#AB0303;
+  color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+}
+
+.card:hover {
+  background-color: #E1306C;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*This is the End of the Instructors Css Card*/
+
+@media (max-width: 1285px) {
+  .content2 h1{
+    font-size: 3rem;
+    
+  }
+  .aboutus-quote{
+    font-size: 20px;
+     width: 100%;
+  }
+
+
+}
+@media (max-width:1040px) {
+  .container-session2{
+   
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+.card img{
+  width: 200px;
+}
+.card-body h1{
+  font-size: 20px;
+}.card-body p{
+  font-size: 15px;
+}
+}
+@media (max-width:674px) {
+  .content2 h1{
+    font-size: 2rem;
+    
+  }
+  .aboutus-quote{
+    font-size: 10px;
+     width: 100%;
+  }
+   
+}
+@media (max-width:600px) {
+  .section2-content1 h2{
+    
+    font-size: 30px;
+  }
+   
+}
+
+@media (max-width:440px) {
+  .content2 h1{
+    font-size: 1.5rem;
+    
+  }
+  .aboutus-quote{
+    font-size: 10px;
+     width: 100%;
+  margin-top: 15px;
+
+  }
+   
+}
+@media (max-width:350px) {
+  
+  .section2-content1 h2{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+  }
+.card {
+   
+   
+   
+   
+  width: 200px;
+}
+.card img{
+  width: 150px;
+}
+.card-body h1{
+  font-size: 15px;
+}.card-body p{
+  font-size: 15px;
+}
+}

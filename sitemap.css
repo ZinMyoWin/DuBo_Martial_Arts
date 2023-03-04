@@ -1,0 +1,135 @@
+/* First Session*/ 
+main{
+  flex: 2;
+  margin-top: 80px;
+  background-color: #577289;
+}
+
+main h1{
+  margin-top: 40px;
+  font-size: 40px;
+  color: bisque;
+  text-align: center;
+}
+ .sitemap-content{
+  margin-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+}
+
+ .sitemap-links{
+  margin-left: 400px;
+ }
+ .sitemap-links ul li{
+  list-style-type: none;
+  font-size: 20px;
+  
+ }
+ .sitemap-links ul li a{
+    text-decoration: none;
+    color: #ffffff;
+ }
+
+ @media only screen and (max-width:1200px) {
+
+  main h1{
+    margin-top: 20px;
+    font-size: 30px;
+     
+  }
+    
+  
+   .sitemap-links{
+    margin-left: 200px;
+   }
+   .sitemap-links ul li{
+     
+    font-size: 20px;
+    
+   }
+
+  .footer a#logo {
+     
+    font-size: 3.2rem;
+     
+  }
+
+  .footer-links ul li{
+    list-style-type: none;
+    font-size: 10px;
+    
+  }
+
+  .footer-icons-text h3{
+    font-size: 10px;
+    margin-top: 10px;
+     
+  }
+  
+  .footer-icons{
+    font-size: 20px;
+     
+  }
+  
+}
+
+
+  @media only screen and (max-width: 991px) {
+  
+  .sitemap-button{
+     
+    width: 70px;
+   
+    margin-left: 20px;
+    
+  }
+ 
+  }
+
+
+  @media only screen and (max-width: 767px) {
+     
+  
+   .sitemap-links{
+    margin-left: 100px;
+   }
+   .sitemap-links ul li{
+     
+    font-size: 20px;
+    
+   }
+
+  }
+  
+  @media only screen and (max-width: 575px) {
+  
+   .sitemap-content{
+    flex-direction: column;     
+     
+    }
+
+     .sitemap-links{
+       
+      margin-right: 100px;
+     }
+     .sitemap-links ul li{
+       
+      font-size: 20px;
+      
+     }
+    
+  }
+
+  @media only screen and (max-width: 300px){
+   
+     .sitemap-links{
+      margin-left: 100px;
+     }
+     .sitemap-links ul li{
+       
+      font-size: 12px;
+      
+     }
+    
+  }

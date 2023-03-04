@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Responsive Navigation Menu</title>
+      <link rel="stylesheet" href="register.css">
+      <link rel="stylesheet" href="navbar.css">
+      <link rel="stylesheet" href="footer.css">
+      
+       
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="register.js"></script>
+   </head>
+   <body>
+     
+    <nav>
+      <div class="logo" style="font-size: 50px;">
+       <img src="Img/dubologo.png" alt="">
+
+      </div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+      <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+         <li><a  href="index.html">Home</a></li>
+         <li><a href="class.html">Class</a></li>
+         <li><a href="timetable.html">Schedule</a></li>
+         <li><a  href="aboutus.html">AboutUs</a></li>
+         <li><a class="active" href="RegistrationForm.html">Register</a></li>
+
+         
+      </ul>
+   </nav>
+
+   <form name='registration' onSubmit="return formValidation();" method="GET" action="thankyou.html">
+
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter your name" name="name" id="name" required> <br><br>
+
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter your email" name="email" id="email" required><br><br>
+
+    <label for="date-of-birth"><b>Date of Birth</b></label>
+    <input type="date" placeholder="Enter your name" name="date-of-birth" id="date-of-birth" required><br><br>
+
+    <label for="gender"><b>Gender</b></label>
+    <select name="gender" id="gender" placeholder="Enter your name">
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <!-- <option value="other">other</option> -->
+    </select><br><br>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter password" name="psw" id="psw" required><br><br>
+
+    <label for="membership"><b>Choose Membership</b></label>
+    <select name="membership" id="membership">
+        <option value="basic">Basic</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+        <option value="elite">Elite</option>
+        <option value="junior">Junior</option>
+    </select><br><br>
+
+
+    <button type="submit" class="mybtn" value="submit">Register</button>
+
+</form>
+     
+    
+      <!--Footer-->
+      <footer>
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+               <img src="Img/dubologo.png" alt="">
+             
+            </div>
+            <div class="media-icons">
+              <a href="https://www.facebook.com/login.php"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/i/flow/login"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">DuBo</li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contactus.html">Contact us</a></li>
+              <li><a href="aboutus.html">About us</a></li>
+              <li><a href="privacy.html">Privacy and Policy</a></li>
+              <li><a href="sitemap.html">SiteMap</a></li>
+              
+            </ul>
+            
+            <ul class="box">
+              <li class="link_name">Account</li>
+              <li><a href="RegistrationForm.html">Register</a></li>
+
+              
+            </ul>
+            <ul class="box">
+              <li class="link_name">Course</li>
+              <li><a href="timetable.html">TimeTable</a></li>
+              <li><a href="class.html">Classes</a></li>
+               
+            </ul>
+             
+          </div>
+        </div>
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2023 <a href="#">DuBo.</a>All rights reserved</span>
+            <span class="policy_terms">
+              <a href="privacy.html">Privacy policy</a>
+            </span>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+   </body>
+</html>
